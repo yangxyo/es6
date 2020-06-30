@@ -1,8 +1,11 @@
 {
-  "compilerOptions": {
-    "checkJs": true,
-    "target": "es6",
-    "module": "commonjs",
-    "alwaysStrict": "true"
-  }
+    "compilerOptions": {
+        "checkJs": true,
+        "target": "es6",
+        "module": "commonjs",
+        "alwaysStrict": "true",
+        "noLib": true
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules"]
 }
